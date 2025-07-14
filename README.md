@@ -18,10 +18,15 @@ Webserver (z. B. Apache oder Nginx)
 Wichtige Dateien und Verzeichnisse
 
 config.php: Datenbankverbindungsparameter (DSN, Benutzer, Passwort).
+
 login.php: Anmeldeformular und Session-Start.
+
 orders.php: Übersicht über alle Bestellungen.
-invoice.php: Anzeige und Druck der Rechnung für eine Bestellung fileciteturn1file0.
+
+invoice.php: Anzeige und Druck der Rechnung für eine Bestellung.
+
 menu.php: Menüpunkte-Verwaltung bzw. Anzeige.
+
 style.css: Basis-Stylesheet für Layout und Druck-Styles.
 
 Datenbankschema
