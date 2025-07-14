@@ -1,17 +1,25 @@
 # Restaurant-Rechnungs--und-Bestellverwaltung
 
 Projektbeschreibung
-Dieses Webprojekt ist ein einfaches Restaurant Order-Management-System für Servicepersonal. Die Anwendung ermöglicht es Kellnern und Kellnerinnen, sich anzumelden, offene Bestellungen einzusehen und für jede Bestellung eine Rechnung zu erstellen und auszudrucken. Dabei werden Menüpunkte aus der Datenbank geladen und zugehörige Bestellposten samt Menge und Preis angezeigt.
+Dieses Webprojekt ist ein einfaches Restaurant Order-Management-System für Servicepersonal.
+Die Anwendung ermöglicht es Kellnern und Kellnerinnen, sich anzumelden, offene Bestellungen einzusehen und für jede Bestellung eine Rechnung zu erstellen und auszudrucken. Dabei werden Menüpunkte aus der Datenbank geladen und zugehörige Bestellposten samt Menge und Preis angezeigt.
 
 Hauptfunktionen
+
 Authentifizierung: Session-basierte Anmeldung für Servicepersonal (Waiter).
+
 Bestellübersicht: Anzeige offener Aufträge mit Details.
+
 Rechnungserstellung: Zusammenstellung der einzelnen Bestellpositionen inkl. Menge, Stückpreis und Gesamtbetrag sowie Druckfunktion.
+
 Sichere Datenbankzugriffe: Prepared Statements mit PDO zur Vermeidung von SQL-Injection.
 
 Systemanforderungen
+
 PHP 7.4 oder höher
+
 MySQL (oder MariaDB)
+
 Webserver (z. B. Apache oder Nginx)
 
 
